@@ -1,0 +1,16 @@
+# Local credentials and environment files
+.env
+.env.*
+!.env.example
+
+# Dependencies and generated output
+node_modules/
+.next/
+dist/
+build/
+coverage/
+.venv/
+__pycache__/
+*.pyc
+*.log
+.DS_Store
