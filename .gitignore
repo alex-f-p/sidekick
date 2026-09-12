@@ -14,3 +14,9 @@ __pycache__/
 *.pyc
 *.log
 .DS_Store
+.sidekick/
+test-results/
+playwright-report/
+
+# Local agent skills
+/.agents/skills/

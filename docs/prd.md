@@ -1,6 +1,6 @@
 # PRD: AI Teammate for Knowledge-Work Meetings
 
-**Status:** Initial PRD for hackathon planning; implementation has not started.
+**Status:** Product requirements baseline. Sidekick is implemented; see [setup readiness](setup-readiness.md) for verified behavior and remaining validation.
 
 **Date:** September 12, 2026
 

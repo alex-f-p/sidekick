@@ -1,0 +1,36 @@
+{
+  "name": "sidekick",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch --env-file=.env.local server/index.ts",
+    "build": "tsc --noEmit && vite build",
+    "start": "NODE_ENV=production tsx --env-file=.env.local server/index.ts",
+    "test": "vitest run",
+    "check": "tsc --noEmit",
+    "verify:integrations": "tsx --env-file=.env.local scripts/verify-integrations.ts",
+    "verify:artifacts": "tsx --env-file=.env.local scripts/verify-native-artifacts.ts",
+    "verify:sync": "tsx --env-file=.env.local scripts/verify-workspace-sync.ts"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "lucide-react": "^0.468.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-markdown": "^10.1.0",
+    "remark-gfm": "^4.0.1",
+    "zod": "^4.1.5"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.3.1",
+    "@types/react": "^19.1.13",
+    "@types/react-dom": "^19.1.9",
+    "@vitejs/plugin-react": "^5.0.2",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2",
+    "vite": "^7.1.5",
+    "vitest": "^4.1.11"
+  }
+}
