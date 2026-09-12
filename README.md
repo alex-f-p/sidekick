@@ -1,8 +1,14 @@
 # Sidekick
 
-An AI teammate that participates in live knowledge-work meetings and creates useful work while the team talks.
+**You talk it through. Sidekick gets to work.**
 
-Sidekick listens, researches questions, contributes at appropriate moments, and builds native Docs, Slides, and Sheets in Ambiguous AI. Teams leave with usable outputs and a record of decisions, pending questions, ambiguities, and follow-ups.
+Sidekick is an AI teammate for team meetings. As your team discusses an idea, Sidekick researches the questions and builds the first drafts. Open the research, review a proposal, or change direction while the conversation is still happening.
+
+- **Research questions as they come up.** Find relevant information with source links your team can check.
+- **Review drafts during the meeting.** Open editable documents, presentations, and spreadsheets in Ambiguous AI. Add feedback as you talk to help Sidekick update them.
+- **Keep decisions and next steps clear.** Leave with a record of what your team agreed, what still needs an answer, and proposed follow-ups.
+
+Your team makes the decisions. Sidekick helps turn the discussion into work you can use.
 
 Built for the AI Tinkerers **Agents, Everywhere** hackathon. Sidekick is a working title.
 
